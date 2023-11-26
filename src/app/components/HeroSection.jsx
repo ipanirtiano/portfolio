@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 md:h-screen">
+    <section className="lg:py-16">
       <div className="z-[0] md:block hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="grid grid-cols-1 sm:grid-cols-12 z-10">
         <motion.div
@@ -30,8 +30,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            As a web developer I really enjoying in programming. <br></br> I can
+            develope frontend and backend project website as request from client
           </p>
           <div className="w-full flex items-center gap-2 z-10">
             <Link

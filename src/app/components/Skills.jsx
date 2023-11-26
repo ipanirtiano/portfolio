@@ -28,9 +28,10 @@ export const Skills = () => {
           Skills
         </h2>
         <p className="text-[#ADB7BE] md:mb-[50px] mb-[20px] text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.<br></br> Lorem Ipsum has been the industrys standard dummy
-          text.
+          It's important to master basic skills as a web developer. <br></br>{" "}
+          Below are the basic skills I have mastered as a web developer. and
+          apart from fundamental skills, <br></br> I also master several
+          frameworks and libraries from the programming languages ​​below
         </p>
 
         <div className="flex w-full items-center justify-center md:gap-[60px] gap-5 text-[#ADB7BE]">
@@ -38,7 +39,7 @@ export const Skills = () => {
             <div className="md:w-[120px] md:h-[120px] w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]">
               <img src="/images/meter1.svg" alt="Image" />
             </div>
-            <h5>HTML</h5>
+            <h5>PHP</h5>
           </div>
 
           <div className="flex flex-col items-center justify-center space-y-3 text-[#ADB7BE]">
@@ -52,14 +53,14 @@ export const Skills = () => {
             <div className="md:w-[120px] md:h-[120px] w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]">
               <img src="/images/meter3.svg" alt="Image" />
             </div>
-            <h5>PHP</h5>
+            <h5>Database</h5>
           </div>
 
           <div className="flex flex-col items-center justify-center space-y-3 text-[#ADB7BE]">
             <div className="md:w-[120px] md:h-[120px] w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]">
               <img src="/images/meter1.svg" alt="Image" />
             </div>
-            <h5>Database</h5>
+            <h5>API</h5>
           </div>
         </div>
       </div>

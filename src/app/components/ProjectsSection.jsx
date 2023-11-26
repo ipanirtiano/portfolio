@@ -7,57 +7,59 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Next.js Sosial App",
+    description:
+      "Sosial network application using next.js 13 and postgreSQL as database management",
+    image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ipanirtiano/next-sosial-app",
+    previewUrl: "https://next-sosial-app.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Next.js e-commerce App",
+    description: "E-commerce front end using next.js 13",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    id: 3,
+    title: "Next.js Booking App Hotel",
+    description: "Booking Hotel aplication using next.js 13",
     image: "/images/projects/4.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ipanirtiano/booking-app-hotel",
+    previewUrl: "https://booking-app-hotel.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "React Netflix Clone",
+    description: "React Netflix clone application",
+    image: "/images/projects/1.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ipanirtiano/react-netflix",
+    previewUrl: "https://react-netflix-rust.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "React Youtube Clone",
+    description: "React Youtube clone application",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ipanirtiano/react-youtube",
+    previewUrl: "https://react-youtube-git-main-ipanirtiano.vercel.app/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "React Github User Explorer App",
+    description: "Application github user explorer using react.js",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ipanirtiano/Github-repositories-explorer",
+    previewUrl:
+      "https://github-repositories-explorer-typescript-lyc3.vercel.app/",
   },
 ];
 
@@ -84,7 +86,9 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2">
         My Projects
       </h2>
-      <p className="text-center text-white mb-8">Lorem ipsum dolor sit amet.</p>
+      <p className="text-center text-white mb-8">
+        Here my last project so far.
+      </p>
       <div className="text-white flex flex-row justify-center items-center gap-2 mb-8">
         <ProjectTag
           onClick={handleTagChange}
