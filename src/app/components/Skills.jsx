@@ -28,7 +28,7 @@ export const Skills = () => {
           Skills
         </h2>
         <p className="text-[#ADB7BE] md:mb-[50px] mb-[20px] text-center">
-          It's important to master basic skills as a web developer. <br></br>{" "}
+          Its important to master basic skills as a web developer. <br></br>{" "}
           Below are the basic skills I have mastered as a web developer. and
           apart from fundamental skills, <br></br> I also master several
           frameworks and libraries from the programming languages ​​below
